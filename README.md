@@ -21,3 +21,7 @@ Easier way is to use 'git commit -m "<message>"'
   This will append your message to the commit without opening a text editor
   Commit message should be clear, accurate, and concise
   Don't end with a '.'
+
+## Merging
+
+Merging means to bring the changes from one branch into another.
