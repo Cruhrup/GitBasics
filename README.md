@@ -14,7 +14,11 @@
 - git checkout -b: Create branch, then check it out
 - git branch -c: Create a branch
 - git branch: List branches
+- git branch --no-merged master: show branches not merged to master yet
 - git merge: Merge changes from different branches
+- git stash: Stash changes from working directory
+- git stash list: List stashes
+- git stash pop: Apple stashed changes to working directory
 
 ## What's a branch?
 
