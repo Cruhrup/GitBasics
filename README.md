@@ -9,12 +9,22 @@
 - git config: Set or get configuration
 - git log: Show a history (aka "log") of project commits
 - git checkout: Check out branch (update HEAD and apply changes to working directory)
+- git checkout -b: Create branch, then check it out
 - git branch -c: Create a branch
+- git branch: List branches
 - git merge: Merge changes from different branches
+
+## What's a branch?
+
+A branch is a ref(reference) to a commit. When HEAD points to a branch, we say we're "on" that branch. When a commit is made while we're on a branch, the branch is updated to ref to the new commit.
+
+## What's a HEAD?
+
+HEAD is a ref to the "current" branch (or sometimes a commit). Git commands like 'status'. 'log', and 'branch' use HEAD. 'git checkout' updates HEAD to ref to a different branch.
 
 ## Commit Messages
 
-Default editor is vim (MobaXTerm is what I use though)
+Default editor is vim
   ctrl+s to save commit message after adding it
   exit text editor after saving
 
